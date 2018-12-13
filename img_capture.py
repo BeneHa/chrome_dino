@@ -45,8 +45,6 @@ class capturer:
 
 
 
-#img = numpy.array(sct.grab(monitor))
-
 
 
 
