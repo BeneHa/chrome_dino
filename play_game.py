@@ -18,7 +18,7 @@ def main():
     def play():
         try:
             while True:
-                c.play_picture()
+                c.play_picture("C:/Users/bened/OneDrive/Arbeit/Lernen/python_training/play_pics/")
                 
                 file = "C:/Users/bened/OneDrive/Arbeit/Lernen/python_training/play_pics/" + str(c.counter_play - 1) + ".png"
                 img = image.load_img(file, target_size = (250, 75))
