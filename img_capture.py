@@ -1,7 +1,5 @@
 import mss
 import mss.tools
-#import numpy as np
-#from PIL import Image
 
 class capturer:
     def __init__(self, top, left, width, height):
@@ -33,10 +31,10 @@ class capturer:
         self.counter_nojump += 1
     
     def play_picture(self, path):
-        with mss.mss() as sct:
-            monitor = {"top":self.top, "left":self.left, "width":self.width, "height": self.height}
-            self.take_picture(self.counter_play, path)
-            self.counter_play += 1
+        #with mss.mss() as sct:
+            #monitor = {"top":self.top, "left":self.left, "width":self.width, "height": self.height}
+        self.take_picture(self.counter_play, path)
+        self.counter_play += 1
             
 
 
