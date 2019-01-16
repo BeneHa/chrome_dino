@@ -22,12 +22,12 @@ class capturer:
             sct_img = sct.grab(monitor)
             mss.tools.to_png(sct_img.rgb, sct_img.size, output=output)
 
-    def up_arrow(self):
-        self.take_picture(self.counter_jump, "C:/Users/bened/OneDrive/Arbeit/Lernen/python_training/train_pics/direction_up")
+    def up_arrow(self, path):
+        self.take_picture(self.counter_jump, path)
         self.counter_jump +=1
         
-    def right_arrow(self):
-        self.take_picture(self.counter_nojump, "C:/Users/bened/OneDrive/Arbeit/Lernen/python_training/train_pics/direction_right")
+    def right_arrow(self, path):
+        self.take_picture(self.counter_nojump, path)
         self.counter_nojump += 1
     
     def play_picture(self, path):
