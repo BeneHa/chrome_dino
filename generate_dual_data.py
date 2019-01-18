@@ -12,11 +12,11 @@ def main():
     def on_press(key):
         if key == keyboard.Key.up:
             dino_capt.up_arrow(base_dir + "train/pics/" + "up_")
-            score_capt.play_picture(base_dir + "train/" + "score/")
+            score_capt.up_arrow(base_dir + "train/score/" + "up_")
             
         elif key == keyboard.Key.right:
             dino_capt.right_arrow(base_dir + "train/pics/" + "right_")
-            score_capt.play_picture(base_dir + "train/" + "score/")
+            score_capt.right_arrow(base_dir + "train/score/" + "right_")
             
     def on_release(key):
         if key == keyboard.Key.esc:
@@ -28,6 +28,4 @@ def main():
   
 main()
 
-#TODO:
-#Check if taking pictures works, transform inputs for model
 

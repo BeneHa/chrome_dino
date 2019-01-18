@@ -24,7 +24,7 @@ class capturer:
 
     def up_arrow(self, path):
         self.take_picture(self.counter_jump, path)
-        self.counter_jump +=1
+        self.counter_jump += 1
         
     def right_arrow(self, path):
         self.take_picture(self.counter_nojump, path)
