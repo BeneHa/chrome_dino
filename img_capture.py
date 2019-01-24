@@ -8,9 +8,9 @@ class capturer:
         self.width = width
         self.height = height
         
-    counter_jump = 1
-    counter_nojump = 1
-    counter_play = 1
+    counter_jump = 150
+    counter_nojump = 150
+    counter_play = 150
         
     
     
