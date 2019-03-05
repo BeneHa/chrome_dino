@@ -11,12 +11,12 @@ def main():
   
     def on_press(key):
         if key == keyboard.Key.up:
-            dino_capt.up_arrow(base_dir + "train/pics/" + "up_")
-            score_capt.up_arrow(base_dir + "train/score/" + "up_")
+            dino_capt.up_arrow(base_dir + "test/pics/" + "up_")
+            score_capt.up_arrow(base_dir + "test/score/" + "up_")
             
         elif key == keyboard.Key.right:
-            dino_capt.right_arrow(base_dir + "train/pics/" + "right_")
-            score_capt.right_arrow(base_dir + "train/score/" + "right_")
+            dino_capt.right_arrow(base_dir + "test/pics/" + "right_")
+            score_capt.right_arrow(base_dir + "test/score/" + "right_")
             
     def on_release(key):
         if key == keyboard.Key.esc:

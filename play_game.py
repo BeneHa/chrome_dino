@@ -16,7 +16,7 @@ def main():
     keyboard = Controller()
     #model = load_model('C:/Users/bened/OneDrive/Arbeit/Lernen/python_training/jump_nojump_v3.h5')
     model = load_model('C:/Users/bened/OneDrive/Arbeit/Lernen/python_training/models/model_dual_input.h5')
-    model_score = load_model('C:/Users/bened/OneDrive/Arbeit/Lernen/python_training/models/score_v2.h5')
+    model_score = load_model('C:/Users/bened/OneDrive/Arbeit/Lernen/python_training/models/score_v3.h5')
     
     def get_result(result):
         resultstr = ''
